@@ -1,0 +1,388 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+.main{
+	width: 100%
+	height:10000px;
+	/*background: yellow*/
+}
+
+header{
+	width: 1300px;
+	height: 50px;				
+	margin: auto;
+	left: 0;
+	right: 0;
+	position: fixed;
+	top: 5px;			
+	z-index: 100;	
+	display: flex;
+	justify-content: space-around;
+	/*background: #FBCEB1;*/			
+}
+
+.header_flex{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	/*background: #FBCEB1;*/
+}
+
+.logo{			
+	/*background:lightblue;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;			
+}
+
+nav{width: 90%;
+	height:50px;		  	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: auto;
+	/*background: gray;*/
+}
+
+.knopka{
+	width:12%;
+	height: 30px;		    
+	box-sizing: border-box;
+	padding: 3px 0 0 0;		  
+	text-align: center;
+	border:1px solid white;
+	border-radius: 15px;
+}
+
+.knopka:hover{
+	border-radius: 15px;
+	border:1px solid orange;
+}
+
+.blue{
+	background: SteelBlue;
+	border-radius: 15px;
+}
+
+main{
+	width: 1300px;
+	margin:auto;	
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;	
+}
+
+.blok_stor_1{	
+	width: 100%;
+	height: 730px;	
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	/*background: blue;*/
+	margin-top: 60px;						
+}
+
+.blok_body_1{	
+	width: 100%;
+	height: 615px;		 
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	/*background: red;*/	  
+}
+
+.blok_osnov{
+	width: 60%;
+	height: 305px;	
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	b/*ackground: gray;*/							
+}
+
+
+
+.blok_nadpys_1{
+	width: 100%;	
+	height: 100%;
+	font-family: Arial Black;
+	/*background: green;*/
+	display: flex;
+	flex-flow: column nowrap;					
+}
+
+.text_orange{
+	color: orange;
+	font-size: 30px;
+}
+
+.text_black{
+	font-size: 30px;
+}
+
+.blok_button{
+	width: 100%;
+	display: flex;	
+	/*background: red;*/
+}
+
+.bottom_test{
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 3px 0 0 0;
+	border:1px solid orange;
+	border-radius: 15px;	
+	margin-right: 150px;
+	background: SteelBlue;
+}
+
+/*.bottom_test:hover{
+	border:2px solid SteelBlue;
+	background: orange;			
+}*/
+
+.bottom_report{
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 3px 0 0 0;
+	border: 1px solid orange;
+	border-radius: 15px;	
+}
+
+.bottom_report:hover{
+	border:2px solid SteelBlue;
+	background: orange;			
+}
+
+.blok_page{
+	width: 40%;
+	padding: 0px;
+	margin: 0px;	
+	/*background: orange;*/
+}
+
+
+.scroll{
+	width: 100%;
+	height: 100px;		
+	text-align: center;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	/*background: red;*/							
+}
+
+.select{
+	width: 30px;
+	height: 25px;				
+	border-radius: 12px;
+	border: 1px solid LightGrey;
+	margin: auto;			
+}
+
+.down {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);    		
+}
+
+.blok_stor_2{
+	width: 100%;
+	height: 765px;		   
+	margin: 40px 0 0 0;
+	display: flex;
+	flex-flow: column nowrap;	
+	align-items: center;
+	/*background: red;*/	    		   
+} 
+
+
+.blok_nadpys_2{
+	width: 100%;
+	height:150px;			
+}
+
+.blok_4vikna{
+	width: 100%;
+	height:530px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	/*background: pink;*/
+}
+
+.vikno{
+	width: 633px;
+	height: 238px;	
+	border-radius:10px;
+	display: flex;	
+	align-items: center;
+	box-shadow: 1px 1px 5px 1px gray;
+	/*background: orange;*/							
+}
+
+.img{width: 25%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*background: blue;*/
+}
+
+.text{
+	width: 75%;
+	height:100%;
+	padding-left: 10px;
+	font-size: 20px;	
+	/*background: red;*/
+}
+
+/*Допилений блок:!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.blok_stor_3{
+	width: 100%;
+	height: 720px;		   
+	margin: 40px 0 0 0;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;	
+	align-items: center;
+	background: BlueViolet;
+	font-size: 20px;	    		   
+} 
+
+.blok_zagolovok{
+		width: 100%;
+		height: 100px;
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;					
+	}	
+	
+
+	.text_blue{
+		color: #1560BD
+	}
+
+	.blok{
+		width: 70%;
+		height: 300px;		
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background: pink;
+		border:1px solid red;
+		}
+
+	.blok_text{
+		width: 500px;
+		height: 200px;
+		/*font-size: 20px;*/		
+		display: flex;
+		border-radius: 5px;
+		box-shadow: 1px 1px 4px 2px Gainsboro;
+	}
+
+	.tsyfra{
+		width:70px;
+		height: 110px;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		/*font-size: 25px;*/
+		font-weight: 500;
+		color: #1560BD;
+		font-family: 'Century Gothic';					
+	}
+
+	
+	.text11{
+		width:280px;
+		height: 55px;
+		/*font-size: 20px;*/
+		padding: 0 5px 0 0;			
+		display:flex;
+		flex-flow: column;
+		justify-content:center;
+		align-items:center;					
+	}
+
+	.vel_shrift{
+		margin: 0 0 5px 0;
+		font-style: 'Arial Black';
+		/*font-size: 10px;*/
+		font-weight: bold;
+	}
+
+	.mal_shrift{
+
+		/*font-size: 9px;*/		
+	}
+
+	.blok_malunok{
+		width:300px;
+		height: 300px;
+		box-sizing: border-box;
+		padding: 0 0 2px 0;
+		border-radius: 50%;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		background: #E6E6E6;
+	}	
+
+	.order_1{
+		order: 1;
+	}
+
+	.order_2{
+		order: 2;
+	}
+	
+	.blok_stor_4{
+	width: 100%;
+	height: 765px;		   
+	margin: 40px 0 0 0;
+	display: flex;
+	flex-flow: column nowrap;	
+	align-items: center;
+	/*background: red;*/	    		   
+} 
+
+	.blok_5{
+		width: 410px;
+		height: 95px;
+		display: flex;
+		background: indigo;	
+		justify-content: space-between;
+		align-items: center;
+		background: #E6E6E6;	
+	}
+
+	.blok_prav{
+		width: 230px;
+		height: 95px;		
+		border-radius: 5px;
+		background: white;
+		box-shadow: 1px 1px 4px 2px Gainsboro;
+	}
+
+	.blok_liv{
+		width: 165px;
+		height: 60px;
+		background: white;	
+	}

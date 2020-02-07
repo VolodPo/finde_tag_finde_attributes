@@ -1,0 +1,201 @@
+	
+
+.blok_stor_5{
+	width: 100%;
+	height: 740px;		   
+	margin: 40px 0 0 0;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;	
+	align-items: center;
+	/*background: #C5D0E6;*/		    		   
+} 
+
+.blok_verkh{
+	width: 100%;	
+	display:flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	/*background: violet;*/
+}
+
+.blok_forma{
+	width: 100%;	
+	display: flex;
+	justify-content: center;
+	/*background: green;*/
+}
+.blok_form_page{
+	width: 50%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;	
+	align-items: center;
+	/*background: red;*/	
+}
+
+ .page_stor_5{
+ 	width:170px;
+ }
+
+.blok_form{
+	width: 50%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	align-items: center;
+	/*background: blue;*/
+}
+
+.blok_form > input{
+	width: 70%;
+	height: 30px;
+	border-radius: 15px;
+	font-size: 15px;
+	font-family: 'Arial';
+}
+
+.blok_form > textarea{
+	width: 70%;
+	height:50%;
+	border-radius: 15px;
+	font-size: 15px;
+	font-family: 'Arial';
+}
+
+[type="submit"]{
+	font-size: 20px;
+	font-family: 'Arial';
+	background: #3D6FC8;
+}
+
+.blok_nyz{
+	width: 100%;	
+	display:flex;
+	flex-flow: column nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	/*background: violet;*/
+}
+
+footer{
+	width: 100%;
+	height: 60px;	
+	display: flex;
+	justify-content: space-around;
+	align-items: center; 
+	/*background: #FBCEB1;*/	
+}
+
+.mereji{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	padding: 0 10px	0 10px;
+}
+
+.mereji > div{
+	width: 25px;
+	height: 25px;
+	margin: 0 25px 0 25px;	
+}
+
+.blok_ostanni{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content:center;
+	align-items: flex-end;
+	color: gray;
+	padding: 0 0 20px 0;	
+}
+
+@media screen and (max-width: 1024px){
+
+.blok_forma{	
+	height: 450px;
+	margin-top: 70px;	
+}
+
+footer{	
+	height: 50px;
+	margin-top: 250px;	
+}
+
+.mereji{	
+	margin-top: 10px;	
+}
+
+}
+
+@media screen and (max-width: 768px){ 
+
+	.blok_stor_5{
+		height: auto;
+		justify-content: flex-start;
+	}
+
+.blok_forma{
+	height: auto;
+	margin-top: 40px;
+	flex-flow: column nowrap;
+}
+
+.blok_form_page{
+	width: 100%;
+	position: relative;
+	margin-bottom: 60px;
+}
+
+.page_stor_5{						/*111111111111111111111111111*/
+ 	width:290px;
+ 	z-index: 2;
+ }
+
+.colo{								/*1111111111111111111111111111*/
+	position: absolute;
+	width: 100%;
+	height:540px;
+	border-radius: 50%;
+	background: #E6E6E6;
+}
+
+.blok_form{
+	width: 100%;
+}
+
+.blok_form > input{
+	width: 100%;
+	height: 40px;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+
+.blok_form > textarea{
+	width: 100%;
+	height:220px;
+	margin-bottom: 30px;
+}
+
+footer{
+width: 648px;
+margin-top: 230px;
+}
+
+footer .knopka,.bord{						/*1111111111111111*/
+	font-size: 13px;								
+}
+
+.blok_ostanni{
+	font-size: 13px;
+}
+
+}
+
+
+
+
+
+

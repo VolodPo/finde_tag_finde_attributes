@@ -1,0 +1,183 @@
+
+
+.blok_stor_3{
+	width: 100%;
+	height: 720px;		   
+	margin: 40px 0 0 0;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;	
+	align-items: center;
+	/*background: #C5D0E6;*/		    		   
+} 	
+
+	.text_blue{		
+		color: #1560BD
+	}
+
+
+
+	.blok{
+		width: 656px;
+		height: 280px;		
+		display: flex;
+		justify-content: space-between;
+		align-items: center;		
+		/*border:1px solid red;*/
+		}
+
+	.blok_text{
+		width: 350px;
+		height: 110px;				
+		display: flex;
+		border-radius: 5px;
+		box-shadow: 1px 1px 4px 2px Gainsboro;		
+	}
+
+	.tsyfra{
+		width:68px;
+		height: 110px;
+		display:flex;
+		justify-content: center;
+		align-items: center;		
+		font-weight: 500;
+		font-size: 50px;
+		font-family: 'Century Gothic';
+		color: #1560BD;							
+	}
+
+	
+	.text11{
+		width:282px;
+		height: 110px;		
+		padding: 0 5px 0 5px;			
+		display:flex;
+		flex-flow: column;
+		justify-content:center;
+		align-items:flex-start;					
+	}
+
+	.vel_shrift{
+		margin: 0 0 5px 0;
+		font-style: 'Arial Black';		
+		font-weight: bold;
+	}
+
+	.mal_shrift{
+			
+	}
+
+	.blok_malunok{
+		width:280px;
+		height: 280px;
+		box-sizing: border-box;		
+		border-radius: 50%;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		background: #E6E6E6;
+	}
+
+	.stor3_malunok1{
+		 height:265px;
+	}
+
+	.stor3_malunok2{
+		 width:280px;
+	}
+
+	.centr_mal_1{
+	padding: 0 0 6px 0;	
+	}
+	
+
+	.order_1{
+		order: 1;
+	}
+
+	.order_2{
+		order: 2;
+	}
+	
+	
+	@media screen and (max-width: 1024px){
+
+.blok_stor_3{
+	height: 830px;
+	margin: 0;
+} 	
+
+.blok{
+	width: 720px;
+	height: 325px;				
+}
+
+.blok_text{
+	width: 325px;
+}
+
+.blok_malunok{
+	width:325px;
+	height: 325px;
+}
+
+.stor3_malunok1{
+	height:300px;	
+}
+
+.stor3_malunok2{
+	 width:322px;
+}
+
+}
+
+@media screen and (max-width: 768px){
+
+	.blok_stor_3{	
+	height: 1305px;
+	justify-content: flex-start;		    		   
+}
+
+.blok{
+	width: 100%;
+	height: 510px;
+	margin-top: 40px;				
+	margin-bottom: 50px;
+	flex-flow: column nowrap;
+}
+
+.blok_text{
+		width: 370px;
+}
+
+.tsyfra{
+	font-size: 35px;
+	font-weight: 500;
+}
+
+.vel_shrift{	
+	font-size: 16px;
+}
+
+.mal_shrift{
+		font-size: 15px;
+}
+
+.blok_malunok{
+		width:370px;
+		height: 370px;
+}
+
+.stor3_malunok1{
+	height:340px;				
+}
+
+.order_1{
+		order: 2;
+	}
+
+	.order_2{
+		order: 1;
+	}
+
+}
